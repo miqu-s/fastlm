@@ -1,0 +1,21 @@
+# FASTLM CONFIGURATION
+# --------------------
+# EXAMPLE FORMAT
+# --------------------
+# False means the model is not loaded
+# True means the model is loaded
+# --------------------
+# name: model-name
+# state: True/False
+# --------------------
+
+
+models:
+  - name: Qwen-1.5-0.5-Chat # 330MB VRAM requirement, 377MB File size.
+    state: True
+  
+  - name: Mistral-Instruct-v0.1 # 2GB~ VRAM requirement, 2.9GB File size.
+    state: False
+
+  - name: LLaMA-7B-Chat-Uncensored # 2GB~ VRAM requirement, 2.6GB File size.
+    state: False
