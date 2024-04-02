@@ -1,6 +1,6 @@
 # FastLM
 
-FastLM is a fast and lightweight UI for Language Model inference :) <br>
+FastLM is a fast and lightweight UI for Language Model inference :) <br> (was lying around on my macbook.
 
 ## Features
 - Fast and lightweight
