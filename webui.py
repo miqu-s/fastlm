@@ -8,7 +8,7 @@ import gradio as gr
 import torch
 from utils.model import Model
 
-model = Model('models/LLaMA-7B-Chat-Uncensored.gguf')
+model = Model('models/Qwen-1.5-0.5-Chat.gguf')
 
 MAX_MAX_NEW_TOKENS = 2048
 DEFAULT_MAX_NEW_TOKENS = 1024
